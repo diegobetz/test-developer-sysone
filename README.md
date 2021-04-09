@@ -26,8 +26,9 @@ Se utilizo base de datos H2 https://www.h2database.com/html/quickstart.html
 
 Para compilar el proyecto localmente no es necesario indicar perfil
 
-En caso de querer generar ar para eliminar el application.properties local y poder realizar una configuracion externa del applicacion.properties
-se genero un profile en el pom.xml (dev)
+
+En caso de querer generar war para eliminar el application.properties local y poder realizar una configuracion externa del archivo
+se debe generar con el profile dev
 mvn clean install -P dev
 
 si se quiere importar en eclipse correr mvn eclipse:eclipse
